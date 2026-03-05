@@ -1,0 +1,11 @@
+# Quadrotor physical parameters
+quadrotor:
+  mass: 1.0        # kg
+  g: 9.81          # m/s^2
+  J:               # Inertia matrix diagonal elements (kg*m^2)
+    ixx: 0.01
+    iyy: 0.01
+    izz: 0.02
+  arm_length: 0.25 # meters
+  thrust_coef: 1.5e-5
+  torque_coef: 1.5e-7

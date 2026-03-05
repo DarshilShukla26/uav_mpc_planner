@@ -1,0 +1,27 @@
+# MacOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# C++ Build
+cpp_solver/build/
+cpp_solver/CMakeCache.txt
+cpp_solver/CMakeFiles/
+cpp_solver/Makefile
+cpp_solver/cmake_install.cmake
+
+# Jupyter Notebook
+.ipynb_checkpoints
